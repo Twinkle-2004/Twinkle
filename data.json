@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "id": "e6572bd8-7666-41b9-bc9d-09bb696c3763",
+      "username": "admin",
+      "role": "admin",
+      "created_at": "2025-10-28T14:23:30.057Z"
+    }
+  ],
+  "inventory_items": [
+    {
+      "item_id": "34e74d5d-c85a-4a1d-a3bb-a13df294ffd5",
+      "sku": "SKU001",
+      "product_name": "Blue Widget",
+      "category": null,
+      "quantity": 7,
+      "supplier": null,
+      "price": 27,
+      "location": null,
+      "metadata": null,
+      "created_at": "2025-10-28T14:35:51.225Z",
+      "updated_at": "2025-10-28T14:59:08.436Z",
+      "deleted_at": "2025-10-28T14:59:08.436Z",
+      "created_by": "admin",
+      "updated_by": "admin"
+    }
+  ],
+  "inventory_audit": [
+    {
+      "audit_id": "a0aee836-a489-49c5-9ab3-f1e213cc4672",
+      "item_id": "34e74d5d-c85a-4a1d-a3bb-a13df294ffd5",
+      "operation": "DELETE",
+      "changed_by": "admin",
+      "changed_at": "2025-10-28T14:59:08.436Z",
+      "diff": {
+        "deleted_at": {
+          "before": null,
+          "after": "2025-10-28T14:59:08.436Z"
+        }
+      },
+      "full_record": {
+        "item_id": "34e74d5d-c85a-4a1d-a3bb-a13df294ffd5",
+        "sku": "SKU001",
+        "product_name": "Blue Widget",
+        "category": null,
+        "quantity": 7,
+        "supplier": null,
+        "price": 27,
+        "location": null,
+        "metadata": null,
+        "created_at": "2025-10-28T14:35:51.225Z",
+        "updated_at": "2025-10-28T14:59:08.436Z",
+        "deleted_at": "2025-10-28T14:59:08.436Z",
+        "created_by": "admin",
+        "updated_by": "admin"
+      }
+    },
+    {
+      "audit_id": "db3bab10-6dd8-48bf-930e-dd9c40af15ae",
+      "item_id": "34e74d5d-c85a-4a1d-a3bb-a13df294ffd5",
+      "operation": "UPDATE",
+      "changed_by": "admin",
+      "changed_at": "2025-10-28T14:58:58.475Z",
+      "diff": {
+        "quantity": {
+          "before": 10,
+          "after": 7
+        },
+        "price": {
+          "before": 25.5,
+          "after": 27
+        }
+      },
+      "full_record": {
+        "item_id": "34e74d5d-c85a-4a1d-a3bb-a13df294ffd5",
+        "sku": "SKU001",
+        "product_name": "Blue Widget",
+        "category": null,
+        "quantity": 7,
+        "supplier": null,
+        "price": 27,
+        "location": null,
+        "metadata": null,
+        "created_at": "2025-10-28T14:35:51.225Z",
+        "updated_at": "2025-10-28T14:58:58.469Z",
+        "deleted_at": null,
+        "created_by": "admin",
+        "updated_by": "admin"
+      }
+    },
+    {
+      "audit_id": "0fcc70fa-9595-49db-a384-668da50314d8",
+      "item_id": "34e74d5d-c85a-4a1d-a3bb-a13df294ffd5",
+      "operation": "CREATE",
+      "changed_by": "admin",
+      "changed_at": "2025-10-28T14:35:51.225Z",
+      "diff": null,
+      "full_record": {
+        "item_id": "34e74d5d-c85a-4a1d-a3bb-a13df294ffd5",
+        "sku": "SKU001",
+        "product_name": "Blue Widget",
+        "category": null,
+        "quantity": 10,
+        "supplier": null,
+        "price": 25.5,
+        "location": null,
+        "metadata": null,
+        "created_at": "2025-10-28T14:35:51.225Z",
+        "updated_at": "2025-10-28T14:35:51.225Z",
+        "deleted_at": null,
+        "created_by": "admin",
+        "updated_by": "admin"
+      }
+    }
+  ],
+  "app_meta": {
+    "ADMIN_TOKEN": "PASTE_TOKEN_HERE"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "inventory-minimal",
+  "version": "1.0.0",
+  "description": "Minimal inventory API + UI (JSON storage)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node init-db.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
